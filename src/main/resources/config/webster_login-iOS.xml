@@ -1,0 +1,65 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Appium Demo Suite" verbose="0" parallel="tests">
+    <listeners>
+        <listener class-name="com.quantum.listerners.QuantumReportiumListener"/>
+    </listeners>
+
+    <!-- To use actual AppiumDriver classes defined    -->
+    <!-- by driverClass property in env.resources dirs -->
+    <!-- Set driver.name value to perfectoDriver       -->
+    <parameter name="driver.name" value="perfectoRemoteDriver"/>
+
+    <test name="Webster iPhone 8" enabled="true">
+        <parameter name="driver.capabilities.deviceName" value="311C990DA91C9CB4A36D2D6A5F296D5019D28678"></parameter>
+        <parameter name="env.resources" value="src/main/resources/ios"/>
+
+        <groups>
+            <run>
+                <include name="@websteriOS"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+    
+     <test name="Webster iPhone 6S+" enabled="true">
+        <parameter name="driver.capabilities.deviceName" value="F41FB514D76C4374B983F4285C7C1BE60DA12E36"></parameter>
+        <parameter name="env.resources" value="src/main/resources/ios"/>
+
+      <groups>
+            <run>
+                <include name="@websteriOS"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+    <test name="Webster Bank Login-Galaxy S7" enabled="false">
+        <parameter name="driver.capabilities.deviceName" value="CE01171122CC381102"></parameter>
+        <parameter name="driver.capabilities.platformName" value="android"></parameter>
+        <parameter name="env.resources" value="src/main/resources/android"/>
+        <groups>
+            <run>
+                <include name="@webster"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+    <test name="Webster Bank Login-Galaxy S8" enabled="false">
+        <parameter name="driver.capabilities.deviceName" value="9887BC435753564F31"></parameter>
+        <parameter name="driver.capabilities.platformName" value="android"></parameter>
+        <parameter name="env.resources" value="src/main/resources/android"/>
+        <groups>
+            <run>
+                <include name="@webster"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.qmetry.qaf.automation.step.client.gherkin.GherkinScenarioFactory"/>
+        </classes>
+    </test>
+</suite>

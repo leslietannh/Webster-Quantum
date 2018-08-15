@@ -1,0 +1,21 @@
+field.username = {\"locator\":\"name=Username\",\"desc\":\"Username UIAElement\"}
+field.password = {\"locator\":\"name=Password\",\"desc\":\"Password UIAElement\"}
+btn.saveuser =xpath=//*[@label='Save Username?']
+btn.login =xpath=//*[@label='LOG IN']
+field.verifyX=xpath=//XCUIElementTypeSecureTextField
+btn.auxmenu=xpath=//*[@label='Auxiliary Menu']
+btn.enterX=xpath=//*[@label='Enter']
+btn.logoutx =xpath=//*[@label='Log Out']
+btn.hmbrgmenu=xpath=//*[@label='menu']
+btn.xferX=xpath=//*[@label='Transfer Funds']
+btn.fromAcct=xpath=//*[@name='TransfersFromAccountCell']
+btn.fromChk9177=xpath=//*[@label='Checking9177']
+btn.toAcct=xpath=//*[@name='TransfersToAccountCell']
+btn.toChk9160=xpath=//*[@label='Checking9160']
+btn.dollar=xpath=//XCUIElementTypeTextField[@value='$0.00']
+btn.dollarToXfer=xpath=//*[@label='1']
+btn.xferDate=xpath=//XCUIElementTypeTextField[@name='TransfersSendDatePropertyCell']
+btn.xferDone=xpath=//*[@label='Done']
+btn.xferSubmit=xpath=//*[@label='Submit']
+btn.xferConfirm=xpath=//*[@label='Confirm']
+btn.xferOK=xpath=//*[@label='OK']

@@ -1,0 +1,25 @@
+btn.addtransfer = {\"locator\":\"css=.account-list-title\",\"desc\":\"Add Transfer Button\"}
+txt.availabletowithdraw = {\"locator\":\"css=.to-withdraw.available-to-withdraw-row.account-list-item-menu > div.text-right\",\"desc\":\"Available to withdraw\"}
+btn.transfertootheraccount = {\"locator\":\"xpath=//*[contains(text(),'Transfer Funds')]\",\"desc\":\"Transfer funds to another account button\"}
+btn.transactiontype = {\"locator\":\"xpath=//*[text()='Transaction Type']\",\"desc\":\"Transaction type button\"}
+btn.account = {\"locator\":\"xpath=//*[text()="Account"]\",\"desc\":\"Account button\"}
+btn.frequency = {\"locator\":\"xpath=//*[text()="Frequency"]\",\"desc\":\"Frequency button\"}
+btn.amount ={\"locator\":\"xpath=//*[text()="Amount"]\",\"desc\":\"Amount button\"}
+btn.startdate = {\"locator\":\"xpath=//*[text()="Start Date"]\",\"desc\":\"Start date button\"}
+btn.continueselectday = {\"locator\":\"xpath=//*[@class="btn btn-primary btn-red-footer btn-half-width"]\",\"desc\":\"Continue button date select\"}
+btn.enddate = {\"locator\":\"xpath=//*[text()="End Date"]\",\"desc\":\"End date button\"}
+btn.memo = {\"locator\":\"xpath=//*[@class="text-left" and text()="Memo"]\",\"desc\":\"Memo button\"}
+field.memo = \"locator\":\"css=.memo-input.search-box\",\"desc\":\"memo input field\"}
+btn.expensecode = {\"locator\":\"xpath=//*[text()="Expense Code"]\",\"desc\":\"Expense code button\"}
+select.expensecode = {\"locator\":\"css=.list-menu.expense-code-select\",\"desc\":\"Frequency select\"}
+btn.scheduletransfer = {\"locator\":\"css=.schedule-transfer\",\"desc\":\"Schedule transfer button\"}
+btn.pincontinue = {\"locator\":\"xpath=//*[@class="btn btn-primary btn-half-width btn-continue"]\",\"desc\":\"Pin continue button\"}
+field.inputpin = {\"locator\":\"css=.input-pin\",\"desc\":\"Pin input field\"}
+select.frequency = {\"locator\":\"css=.list-menu.frequency-select\",\"desc\":\"Frequency select\"}
+field.amount = {\"locator\":\"css=.amount-input\",\"desc\":\"amount input field\"}
+
+
+
+
+
+

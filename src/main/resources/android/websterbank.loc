@@ -1,0 +1,22 @@
+btn.cancel = {\"locator\":\"name=Cancel\",\"desc\":\"Cancel Email UIAButton\"}
+btn.send = {\"locator\":\"name=Send\",\"desc\":\"Send Email UIAButton\"}
+txt.newmessage = {\"locator\":\"name=New Message\",\"desc\":\"New Message UIAStaticText\"}
+btn.close = {\"locator\":\"xpath=//*[@resourceid="com.malauzai.websterbank:id/btn_close"]}
+field.username = {\"locator\":\"id=com.malauzai.websterbank:id/username_entry\",\"desc\":\"Username UIAElement\"}
+field.password = {\"locator\":\"id=com.malauzai.websterbank:id/password_entry\",\"desc\":\"Password UIAElement\"}
+btn.submit = {\"locator\":\"id=com.malauzai.websterbank:id/b_submit\",\"desc\":\"LOG IN UIAButton\"}
+btn.save = {\"locator\":\"id=com.malauzai.websterbank:id/save_username_toggle\",\"desc\":\"Save Username UIAButton\"}
+field.verify = {\"locator\":\"id=com.malauzai.websterbank:id/answer\",\"desc\":\"Verification UIAElement\"}
+btn.logout = {\"locator\":\"id=com.malauzai.websterbank:id/btn_logout\",\"desc\":\"LOG OUT UIAButton\"}
+btn.auxmenu=xpath=//*[@resource-id='com.malauzai.websterbank:id/btn_auxmenu']
+btn.confirm1 = {\"locator\":\"id=button1\",\"desc\":\"Verification OK\"}
+btn.hamburmenu=xpath=//*[@content-desc='Open navigation drawer']
+btn.xfer=xpath=//*[@text='Transfer Funds']
+btn.movefunds=xpath=//*[@resource-id='com.malauzai.websterbank:id/action_buttons_background']
+field.currency = {\"locator\":\"id=com.malauzai.websterbank:id/currency\",\"desc\":\"Currency UIAElement\"}
+btn.xferdate=xpath=//*[@resource-id='com.malauzai.websterbank:id/button']
+btn.xferaugust=xpath=//*[@content-desc='Friday, August 31 2018']
+btn.xferOK=xpath=//*[@resource-id='com.malauzai.websterbank:id/button_ok']
+btn.xferSubmit=xpath=//*[@resource-id='com.malauzai.websterbank:id/button_done']
+btn.xferConfirm=xpath=//*[@resource-id='com.malauzai.websterbank:id/action_more']
+btn.imag=xpath=//*[@resource-id="com.malauzai.websterbank:id/iv_logo"]
